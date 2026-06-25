@@ -1,17 +1,10 @@
 :root {
-  --main-font: "Inter-Variable", Arial, sans-serif;
-  --accent-font: "PressStart2P", fantasy;
-  --main-font-weight: 400;
-  --title-font-weight: 700;
-  --bg-color: #fff;
+  --main-font: 'Inter', Arial, sans-serif;
+  --accent-font: 'PressStart2P', fantasy;
+  --background-color: #fff;
   --accent-color: #000;
-  --button-text-color: #fff;
-  --contour-color: #000;
-  --animation-fill-color: #ff0000;
   --label-stroke-color: #fff;
-  --content-width: clamp(375px, 49vw, 700px);
-  --bg-gradient:
-    repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
-    repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
-    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+  --heart-contour-color: #000;
+  --heart-main-color: #ff0000;
+  --card-inline-size: clamp(375px, 48.6vw, 700px);
 }
